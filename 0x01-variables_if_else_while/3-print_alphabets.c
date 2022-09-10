@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
+ * main - Prints the alphabet in low
  * Return: Always 0 (Success)
  */
 int main(void)
