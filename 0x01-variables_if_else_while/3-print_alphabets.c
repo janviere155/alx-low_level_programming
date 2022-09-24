@@ -1,23 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - Prints the alphabetic in lower and upper case
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(letter);
+		putchar(c);
 	}
-	for (letter = 'A'; letter <= 'Z'; letter++)
+
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar(letter);
+		putchar(c);
 	}
-	
+
+	putchar('\n');
 	return (0);
 }
