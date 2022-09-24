@@ -23,7 +23,7 @@ char *cap_string(char *s)
 		i++;
 		}
 
-		a++;
+	a++;
 	}
 
 	return (s);
