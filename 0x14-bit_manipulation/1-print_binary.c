@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_binary - Prints the binary representation of a number
+ * print_binary - Prints the binary representation of a numbe
  * @n: The number to representing in binary
  *
  * Return: Nothing
